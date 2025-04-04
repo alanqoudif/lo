@@ -9,5 +9,13 @@
         "iad1",
         "sfo1",
         "bom1"
-    ]
+    ],
+    "functions": {
+        "api/raycast": {
+            "maxDuration": 60
+        },
+        "api/**/*": {
+            "maxDuration": 60
+        }
+    }
 }
